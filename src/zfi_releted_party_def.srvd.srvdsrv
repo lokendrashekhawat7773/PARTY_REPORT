@@ -1,0 +1,4 @@
+@EndUserText.label: 'releted party report service defination'
+define service ZFI_RELETED_PARTY_DEF {
+  expose ZFI_RELETED_CDS;
+}

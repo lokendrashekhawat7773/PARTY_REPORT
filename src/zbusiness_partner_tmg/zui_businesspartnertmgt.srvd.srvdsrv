@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_BusinessPartnerTmgT_S'
+define service ZUI_BUSINESSPARTNERTMGT {
+  expose ZI_BUSINESSPARTNERTMGT_S as BusinessPartnerTAll;
+  expose ZI_BUSINESSPARTNERTMGT as BusinessPartnerTmgT;
+}

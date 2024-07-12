@@ -1,0 +1,164 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'BusinessPartnerTmgT', 
+    typeNamePlural: 'BusinessPartnerTmgTs', 
+    title: {
+      type: #STANDARD, 
+      label: 'Business partner tmg tab', 
+      value: 'CoCode'
+    }
+  }
+}
+annotate view ZI_BusinessPartnerTmgT with
+{
+  @UI.identification: [ {
+    position: 1 , 
+    label: 'Sr No'
+  } ]
+  @UI.lineItem: [ {
+    position: 1 , 
+    label: 'Sr No'
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_BusinessPartnerTmgT', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Business partner tmg tab', 
+    position: 1 
+  } ]
+  SrNo;
+
+  @UI.identification: [ {
+    position: 2 , 
+    label: 'Co Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 2 , 
+    label: 'Co Code'
+  } ]
+
+  CoCode;
+  
+  @UI.identification: [ {
+    position: 3 , 
+    label: 'Customer Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 , 
+    label: 'Customer Code'
+  } ]
+  CustomerCode;
+  
+  @UI.identification: [ {
+    position: 4 , 
+    label: 'Customer Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 4 , 
+    label: 'Customer Name'
+  } ]
+  CustomerName;
+  
+  @UI.identification: [ {
+    position: 5 , 
+    label: 'Vendor Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 , 
+    label: 'Vendor Code'
+  } ]
+  VendorCode;
+  
+  @UI.identification: [ {
+    position: 6 , 
+    label: 'Vendor Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 6 , 
+    label: 'Vendor Name'
+  } ]
+  VendorName;
+  
+      @UI.identification: [ {
+    position: 7 , 
+    label: 'Relation'
+  } ]
+  @UI.lineItem: [ {
+    position: 7 , 
+    label: 'Relation'
+  } ]
+  Relation;
+  
+      @UI.identification: [ {
+    position: 8 , 
+    label: 'Related Co Code Cust Vend'
+  } ]
+  @UI.lineItem: [ {
+    position: 8 , 
+    label: 'Related Co Code Cust Vend'
+  } ]
+  Relatedcocodecustvend;
+  
+      @UI.identification: [ {
+    position: 9 , 
+    label: 'Related Customer Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 9 , 
+    label: 'Related Customer Code'
+  } ]
+  RelatedCustomerCode;
+  
+      @UI.identification: [ {
+    position: 10 , 
+    label: 'Related Customer Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'Related Customer Name'
+  } ]
+  RelatedCustomerName;
+  
+      @UI.identification: [ {
+    position: 12 , 
+    label: 'Related Vendor Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 11 , 
+    label: 'Related Vendor Code'
+  } ]
+  RelatedVendorCode;
+  
+      @UI.identification: [ {
+    position: 12 , 
+    label: 'Related Vendor Name'
+  } ]
+  @UI.lineItem: [ {
+    position: 12 , 
+    label: 'Related Vendor Name'
+  } ]
+  RelatedVendorName;
+  
+  @UI.identification: [ {
+    position: 13 , 
+    label: 'Gl Code'
+  } ]
+  @UI.lineItem: [ {
+    position: 13 , 
+    label: 'Gl Code'
+  } ]
+  GlCode;
+  
+  @UI.identification: [ {
+    position: 14 , 
+    label: 'Gl Description'
+  } ]
+  @UI.lineItem: [ {
+    position: 14 , 
+    label: 'Gl Description'
+  } ]
+  GlDescription;
+  
+
+}
